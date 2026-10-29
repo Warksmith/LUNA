@@ -268,6 +268,20 @@ Press **Start** to save changes.
   Neutrino includes 240p/288p, 480p/576p, and 1080i scaling options. Output
   changes do not automatically increase a game's internal rendering resolution.
 - **Startup logo:** set the PS2 logo globally or override it for a game.
+- **Memory card GameID:** open **Start → Game Defaults** and turn it on to send
+  each PS2 game's title ID to MMCE-compatible memory cards, such as SD2PSX or
+  PSxMemCard Gen2, when the game launches. The card then creates or switches to
+  that game's card. It is off by default and applies to every drive; LUNA saves
+  it as `gameid.cfg` beside `luna.elf`. GameID needs MX4SIO turned off under
+  **Storage**, because LUNA does not load MMCE support alongside MX4SIO; the
+  GameID row says so while MX4SIO is on.
+
+  If FMCB and LUNA run from the MMCE card itself, that card switches only
+  after the game core has read its files, and only when in-game return is
+  available for the launch. The return combo switches the card back to its
+  **boot card** before LUNA reloads, so keep FMCB and `APP_LUNA` on the boot
+  card. A physical reset or power cycle does not switch it back; the card
+  then follows its own startup setting.
 - **Cheats:** select entries from `CHT/<TITLE_ID>.cht`, enable cheats, and save.
   Cheats are off by default. This path uses raw PS2RD codes and the matching
   LUNA Neutrino runtime; encrypted cheat files are not supported.

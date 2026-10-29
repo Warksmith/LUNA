@@ -58,6 +58,7 @@ $neutrinoRuntimeFiles = @(
     'mc_emu.irx',
     'ministack.irx',
     'mmcefhi.irx',
+    'mmceigr.irx',
     'mmceman.irx',
     'mx4sio_bd_mini.irx',
     'patch_freemem.irx',
