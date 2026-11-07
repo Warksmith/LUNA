@@ -1,7 +1,7 @@
 {
   "nhddl": {
     "url": "https://github.com/Warksmith/nhddl-luna.git",
-    "revision": "689eb16f83a9d5b5348d58ef06e9698952c42a76",
+    "revision": "9c3c2be27008b3b8acf131c309006cbae4899401",
     "recursive": true
   },
   "neutrino": {
