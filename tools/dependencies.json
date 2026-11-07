@@ -1,12 +1,12 @@
 {
   "nhddl": {
-    "url": "https://github.com/dnunezx/nhddl-luna.git",
-    "revision": "3f2e126c553cee5cc4db30333959e11d36b37f8c",
+    "url": "https://github.com/Warksmith/nhddl-luna.git",
+    "revision": "689eb16f83a9d5b5348d58ef06e9698952c42a76",
     "recursive": true
   },
   "neutrino": {
-    "url": "https://github.com/dnunezx/neutrino-luna.git",
-    "revision": "669acaa3838770481e4f9b5a708c133c3a4e7278"
+    "url": "https://github.com/Warksmith/neutrino-luna.git",
+    "revision": "f96f2c6a60f908f6ba38ca9b662e2f50d6b5c8a5"
   },
   "opl": {
     "url": "https://github.com/dnunezx/Open-PS2-Loader.git",
